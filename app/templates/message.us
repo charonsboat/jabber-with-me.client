@@ -1,5 +1,7 @@
 <li class="<%= owner %>">
-	<img src="<%= avatar.source %>" class="avatar">
+	<div class="avatar">
+		<img src="<%= avatar.source %>">
+	</div>
 
 	<div class="message">
 		<p><%= text %></p>

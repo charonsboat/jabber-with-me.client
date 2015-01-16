@@ -18,7 +18,7 @@
 		document.body.innerHTML += html;
 	};
 
-	var testMessage = function ()
+	var testMessage1 = function ()
 	{
 		var html = window.JST['app/templates/message.us']({
 			avatar: {
@@ -31,11 +31,25 @@
 		document.getElementById('test-chat').querySelector('.conversation').innerHTML += html;
 	};
 
+	var testMessage2 = function ()
+	{
+		var html = window.JST['app/templates/message.us']({
+			avatar: {
+				source: 'http://placehold.it/100x100'
+			},
+			owner: 'other',
+			text: 'This is another test message.'
+		});
+
+		document.getElementById('test-chat').querySelector('.conversation').innerHTML += html;
+	};
+
 	var init = function ()
 	{
 		hello1();
 		hello2();
-		testMessage();
+		testMessage1();
+		testMessage2();
 	};
 
 	if (window.addEventListener)
