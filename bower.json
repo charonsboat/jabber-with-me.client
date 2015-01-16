@@ -1,0 +1,20 @@
+{
+  "name": "jabber-with-me.client",
+  "version": "0.0.0",
+  "homepage": "https://github.com/drmyersii/jabber-with-me.client",
+  "authors": [
+    "David Myers [drmyersii]"
+  ],
+  "description": "A Jabber-With-Me chat client.",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.9"
+  }
+}
