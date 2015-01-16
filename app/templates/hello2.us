@@ -1,0 +1,3 @@
+<div class="hello2">
+  <%= text %>
+</div>
