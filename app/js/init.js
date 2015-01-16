@@ -9,20 +9,20 @@
 		var html = window.JST['app/templates/hello.us']({text: helloText1});
 		
 		document.body.innerHTML += html;
-	}
+	};
 
 	var hello2 = function ()
 	{
 		var html = window.JST['app/templates/hello2.us']({text: helloText2});
 
 		document.body.innerHTML += html;
-	}
+	};
 
 	var init = function ()
 	{
 		hello1();
 		hello2();
-	}
+	};
 
 	if (window.addEventListener)
 	{
