@@ -18,10 +18,24 @@
 		document.body.innerHTML += html;
 	};
 
+	var testMessage = function ()
+	{
+		var html = window.JST['app/templates/message.us']({
+			avatar: {
+				source: 'http://placehold.it/100x100'
+			},
+			owner: 'self',
+			text: 'This is a test message.'
+		});
+
+		document.getElementById('test-chat').querySelector('.conversation').innerHTML += html;
+	};
+
 	var init = function ()
 	{
 		hello1();
 		hello2();
+		testMessage();
 	};
 
 	if (window.addEventListener)
