@@ -1,4 +1,6 @@
 .DS_Store
+.npmignore
+.travis.yml
 
 #ignore pulled packages
 /node_modules
