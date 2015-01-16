@@ -25,6 +25,12 @@ npm install
 # install bower dependencies
 bower install
 
-# run with lineman
+# run with lineman - go to http://localhost:8000 to view application
 lineman run
+
+# run tests
+lineman spec
+
+# build for production
+lineman build
 ```
