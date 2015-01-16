@@ -1,6 +1,6 @@
 # Jabber With Me API - Client
 
-This client connects to and communicates with the specified server that is running the Jabber With Me API.
+This client connects to and communicates with the specified server that is running the [Jabber With Me API](https://github.com/drmyersii/jabber-with-me.api.git).
 
 ## Installation
 
