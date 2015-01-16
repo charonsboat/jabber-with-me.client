@@ -1,9 +1,9 @@
 {
   "name": "jabber-with-me.client",
-  "description": "An HTML/JS/CSS app",
-  "version": "0.0.1",
+  "description": "A Jabber-With-Me chat client.",
+  "version": "0.0.0",
   "private": true,
-  "author": "John Doe",
+  "author": "David Myers [drmyersii]",
   "devDependencies": {
     "lineman": "~0.34.3"
   },
